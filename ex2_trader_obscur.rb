@@ -31,28 +31,3 @@ puts  @name.zip(@price)
 
 end
 perform
-
-#<a class="currency-name-container link-secondary" href="/currencies/bitcoin/">Bitcoin</a>
-#/*[contains(@class,"no-wrap text-right")]
-
-=begin
-#
-def get_all_the_urls_of_val_doise_townhalls
-
-  doc = Nokogiri::HTML(open("http://annuaire-des-mairies.com/val-d-oise.html"))
-
-  #//p/ permet de récupérer tous les liens des paragraphes
-  #1er .map crée un tableau avec tous les liens
-  #2ème .map permet je récupérer tous les liens
-  	url_array=doc.xpath('//p/a').map { |link| link["href"]}.map { |link| "http://annuaire-des-mairies.com#{link [1..-1]}"}
-  	  puts 	url_array
-
-end
-get_all_the_urls_of_val_doise_townhalls
-
-//*[@id="id-bitcoin"]/td[5]
-
-//*[@id="id-ethereum"]
-
-//*[@id="id-ethereum"]/td[5]
-=end
